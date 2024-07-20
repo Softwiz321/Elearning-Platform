@@ -1,0 +1,142 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible"content="IE=edge">
+<meta name="viewport"content="width=device-width,initial-scale=1.0">
+<title>Project Zero</title>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+<link rel="stylesheet"href="style.css">
+<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <img src="images/logo.svg"alt="">
+        <div class="navigation">
+        <ul>
+        <i id="menu-close"class="fas fa-times"></i>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a class="active" href="course.html">Courses</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <img id="menu-btn"src="images/menu.png"alt="">
+        </div>
+    </nav>
+    <section id="about-home">
+        <h2>Enroll Our Popular Course And Skill Up</h2>
+    </section>
+    <section id="course-inner">
+        <div class="overview">
+            <img  class="course-img"src="images/c3.jpeg"alt="">
+            <div class="course-head">
+            <div class="c-name">
+                <h2>Python Beginners Course</h2>
+                <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                </div>
+                <p>Python Programming from beginning - all the way upto expert level! The must-have course for future.</p>
+                </div>
+                <span>₹499</span>
+            </div>
+            <h3>Instructor</h3>
+            <div class="tutor">
+                <img src="images/pro1.jpeg"alt="">
+                <div class="tutor-det">
+                    <h5>Alice Francis</h5>
+                    <p>AI & ML developer at Microsoft</p>
+                </div>
+            </div>
+            <hr>
+            <h3>Course Overview</h3>
+            <p>
+            The Python Fundamentals for Beginners course provides a solid foundation in various Python concepts, starting with an introduction to the language. The course covers essential programming elements such as variables, decision-making statements, looping statements, algorithmic approaches, object-oriented programming concepts, and functions. Additionally, students will learn about Jupyter Notebook, Python-specific variables, data structures, and fundamental Python problems. In the latter part of the course, students will delve into OOP concepts and working with inheritance. To test their understanding, students will complete an assignment to earn a free certificate upon course completion.
+            </p>
+            <p>
+            After completing this free, self-paced, beginner's guide to Python, you can embark on your Software and IT career with a professional Post Graduate certificate and learn various concepts with millions of aspirants across the globe!
+            </p>
+            <hr>
+            <h3>What you'll learn:</h3>
+            <div class="learn">
+                <p><i class="far fa-check-circle"></i>Programming Concepts</p>
+                <p><i class="far fa-check-circle"></i>Python Basics</p>
+                <p><i class="far fa-check-circle"></i>Variables and Data types in Python</p>
+                <p><i class="far fa-check-circle"></i>Operators and Strings in Python</p>
+                <p><i class="far fa-check-circle"></i>Control Flow Statements and Functions</p>
+                <p><i class="far fa-check-circle"></i>Python Data Structures</p>
+                <p><i class="far fa-check-circle"></i>Python backend development with database connectivity</p>
+            </div>
+           </div>
+            <div class="enroll">
+              <h3>This course includes:</h3>
+               <p><i class="fas fa-video"></i>33 hours on-demand video</p>
+               <p><i class="far fa-newspaper"></i>1 article</p>
+               <p><i class="fas fa-download"></i>187 downloadable resources</p>
+               <p><i class="fas fa-mobile"></i>Access on mobile and Laptop</p>
+               <p><i class="fas fa-infinity"></i>Full lifetime access</p>
+               <p><i class="fas fa-trophy"></i>Certificate of completion</p>
+               <div class="enroll-btn">
+                <a class="blue"href="#">Enroll Course</a>
+            </div>
+        </div>
+    </section>
+    <footer>
+            <div class="footer-col">
+                <h3>Top Products</h3>
+                <li>Manage Reputation</li>
+                <li>Power Tools</li>
+                <li>Managed Website</li>
+                <li>Marketing Service</li>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <li>Jobs</li>
+                <li>Brand Assets</li>
+                <li>Investor Relation</li>
+                <li>Terms of Service</li>
+            </div>    
+            <div class="footer-col">
+                <h3>Features</h3>
+                <li>Managed Reputation</li>
+                <li>Power Tools</li>
+                <li>Managed Website</li>
+                <li>Marketing Service</li>
+            </div>
+            <div class="footer-col">
+                <h3>Resources</h3>
+                <li>Guides</li>
+                <li>Research</li>
+                <li>Experts</li>
+                <li>Marketing Service</li>
+            </div>
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>You can trust us,We only send promo offers</p>
+            <div class="subscribe">
+                <input type="text"placeholder="Your Email Address">
+                <a href="#"class="yellow">Subscribe</a>
+            </div> 
+        </div>
+        <div class="copyright">
+            <p>Copyright ©2023 All rights reserved | This template is made by TechEduca</p>
+            <div class="pro-links">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin-in"></i>
+        </div>
+        </div>
+    </footer>
+    <script>
+        $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+        $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
+</body>
+</html>

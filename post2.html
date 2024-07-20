@@ -1,0 +1,102 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible"content="IE=edge">
+<meta name="viewport"content="width=device-width,initial-scale=1.0">
+<title>Project Zero</title>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+<link rel="stylesheet"href="style.css">
+<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <img src="images/logo.svg"alt="">
+        <div class="navigation">
+        <ul>
+        <i id="menu-close"class="fas fa-times"></i>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a class="active" href="blog.html">Blog</a></li>
+        <li><a href="course.html">Courses</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <img id="menu-btn"src="images/menu.png"alt="">
+        </div>
+    </nav>
+    <section id="blog-container">
+        <div class="blogs blogpost">
+            <div class="post">
+                <img src="images/b2.jpeg"alt="">
+                <h3>How to manage our time for coding??</h3>
+                <p>Coding is a skill that requires a lot of practice and dedication to master. However, coding can also be time-consuming and challenging, especially when we have other responsibilities and commitments in our lives. How can we balance our coding goals with our personal and professional obligations? How can we make the most of our limited time for coding? Here are some tips that might help you manage your time for coding more effectively.
+                Set SMART goals: SMART stands for Specific, Measurable, Achievable, Relevant, and Time-bound. SMART goals are clear, realistic, and trackable. They help you focus on what you want to achieve, why you want to achieve it, and how you will achieve it. For example, instead of saying “I want to learn web development”, you can say “I want to complete the freeCodeCamp Responsive Web Design Certification by the end of this month”. This way, you have a specific outcome, a measurable indicator, an achievable target, a relevant motivation, and a time-bound deadline.
+            <br>
+                <b>Plan your schedule:</b>Planning your schedule is crucial for managing your time for coding. You need to allocate a specific amount of time for coding every day or week, depending on your availability and preference. You also need to prioritize your tasks and decide what to work on first. You can use tools such as calendars, timers, to-do lists, and project management apps to help you plan your schedule. For example, you can use Google Calendar to create events for your coding sessions, Pomodoro Timer to break down your work into intervals, Trello to organize your projects and tasks, and GitHub to track your progress and collaborate with others.
+            <br>
+                <b>Eliminate distractions:</b>Distractions are the enemies of productivity. They can interrupt your flow and waste your time. You need to identify and eliminate the sources of distractions that might affect your coding performance. You can do this by turning off your notifications, closing unnecessary tabs and apps, wearing headphones or earplugs, working in a quiet and comfortable environment, and informing others about your coding time. You can also use tools such as Focus Mode on Microsoft Edge or StayFocusd on Google Chrome to block distracting websites and apps while you code.
+            <br>
+               <b>Review and reflect:</b>Reviewing and reflecting on your coding work is important for improving your skills and learning from your mistakes. You need to evaluate your results and feedback regularly and identify what you did well and what you need to improve. You also need to celebrate your achievements and reward yourself for your efforts. You can use tools such as CodePen or CodeSandbox to showcase your projects and get feedback from other developers, Medium or Dev.to to write about your coding journey and share your insights with others, and Codecademy or freeCodeCamp to earn badges and certificates for completing courses and challenges.
+            <br>
+               Coding is a rewarding and fulfilling activity that can enhance your personal and professional growth. However, coding can also be demanding and stressful if you don’t manage your time well. By following these tips, you can optimize your time for coding and achieve your goals more efficiently.
+               <br>
+               <br>
+               Happy coding!😊</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>Jobs</li>
+            <li>Brand Assets</li>
+            <li>Investor Relation</li>
+            <li>Terms of Service</li>
+        </div>    
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>Managed Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Guides</li>
+            <li>Research</li>
+            <li>Experts</li>
+            <li>Marketing Service</li>
+        </div>
+    <div class="footer-col">
+        <h3>Newsletter</h3>
+        <p>You can trust us,We only send promo offers</p>
+        <div class="subscribe">
+            <input type="text"placeholder="Your Email Address">
+            <a href="#"class="yellow">Subscribe</a>
+        </div> 
+    </div>
+    <div class="copyright">
+        <p>Copyright ©2023 All rights reserved | This template is made by TechEduca</p>
+        <div class="pro-links">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin-in"></i>
+    </div>
+    </div>
+</footer>
+<script>
+    $('#menu-btn').click(function(){
+        $('nav .navigation ul').addClass('active')
+    });
+    $('#menu-close').click(function(){
+        $('nav .navigation ul').removeClass('active')
+    });
+</script>
+</body>
+</html>

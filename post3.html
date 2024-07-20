@@ -1,0 +1,113 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible"content="IE=edge">
+<meta name="viewport"content="width=device-width,initial-scale=1.0">
+<title>Project Zero</title>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+<link rel="stylesheet"href="style.css">
+<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <img src="images/logo.svg"alt="">
+        <div class="navigation">
+        <ul>
+        <i id="menu-close"class="fas fa-times"></i>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a class="active" href="blog.html">Blog</a></li>
+        <li><a href="course.html">Courses</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <img id="menu-btn"src="images/menu.png"alt="">
+        </div>
+    </nav>
+    <section id="blog-container">
+        <div class="blogs blogpost">
+            <div class="post">
+            <img src="images/b3.jpeg"alt="">
+            <h3>Who and when one can learn programming skills</h3>
+            <p><b>Programming is the process of creating instructions for computers to perform tasks. Programming skills are useful for solving problems, creating applications, and expressing creativity. Programming skills are also in high demand in the job market, as many industries and sectors rely on software and technology. But who can learn programming skills, and when is the best time to start?
+            <br>
+            The answer is simple: anyone can learn programming skills, and anytime is a good time to start. Programming is not limited by age, gender, education, or background. Programming is a skill that can be learned by anyone who has an interest, a curiosity, and a willingness to learn. Programming is also a skill that can be learned at any stage of life, whether you are a child, a teenager, a young adult, or an older adult.
+            However, learning programming skills does require some prerequisites, such as:
+            </b>
+            <ol type="1">
+            <li>A computer:</li>You need a computer to write and run your code. You don’t need a fancy or expensive computer, as long as it can run the programming language and tools that you want to use. You can also use online platforms such as Replit or CodePen to code in your browser without installing anything on your computer.
+            <br>
+            <li>A programming language:</li>You need to choose a programming language that suits your goals and preferences. There are many programming languages to choose from, such as Python, Java, C#, JavaScript, Ruby, and more. Each language has its own syntax, features, advantages, and disadvantages. You can start with one language and then learn more languages as you progress.
+            <br>
+            <li>A learning resource:</li>You need to find a learning resource that teaches you the basics and concepts of programming. There are many learning resources available online, such as books, courses, tutorials, videos, podcasts, blogs, and more. You can also join online communities and forums where you can ask questions, get feedback, and interact with other learners and experts.
+            <br>
+            <li>A project:</li>You need to have a project that motivates you and challenges you to apply your programming skills. A project can be anything that you want to create or improve using code, such as a website, a game, an app, a tool, or a data analysis. A project can help you practice your skills, test your knowledge, and showcase your work.
+            <br>
+           </ol>
+            Learning programming skills is not easy, but it is not impossible either. It takes time, effort, patience, and perseverance. It also takes passion, curiosity, and creativity. Learning programming skills can be fun, rewarding, and empowering. If you are interested in learning programming skills, you can start today by following these steps:
+            <ul>
+                <li>Choose a computer that you can use for coding.</li>
+                <li>Choose a programming language that you want to learn.</li>
+                <li>Choose a learning resource that teaches you the basics and concepts of programming.</li>
+                <li>Choose a project that inspires you and challenges you to code.</li>
+                <br>
+            </ul>
+            I hope you enjoyed reading this blog post.Thank you for your time.😊</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>Jobs</li>
+            <li>Brand Assets</li>
+            <li>Investor Relation</li>
+            <li>Terms of Service</li>
+        </div>    
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>Managed Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Guides</li>
+            <li>Research</li>
+            <li>Experts</li>
+            <li>Marketing Service</li>
+        </div>
+    <div class="footer-col">
+        <h3>Newsletter</h3>
+        <p>You can trust us,We only send promo offers</p>
+        <div class="subscribe">
+            <input type="text"placeholder="Your Email Address">
+            <a href="#"class="yellow">Subscribe</a>
+        </div> 
+    </div>
+    <div class="copyright">
+        <p>Copyright ©2023 All rights reserved | This template is made by TechEduca</p>
+        <div class="pro-links">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin-in"></i>
+    </div>
+    </div>
+</footer>
+<script>
+    $('#menu-btn').click(function(){
+        $('nav .navigation ul').addClass('active')
+    });
+    $('#menu-close').click(function(){
+        $('nav .navigation ul').removeClass('active')
+    });
+</script>
+</body>
+</html>

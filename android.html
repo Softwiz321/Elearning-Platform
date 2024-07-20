@@ -1,0 +1,106 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible"content="IE=edge">
+<meta name="viewport"content="width=device-width,initial-scale=1.0">
+<title>Project Zero</title>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+<link rel="stylesheet"href="style.css">
+<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <img src="images/logo.svg"alt="">
+        <div class="navigation">
+        <ul>
+        <i id="menu-close"class="fas fa-times"></i>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a class="active" href="course.html">Courses</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <img id="menu-btn"src="images/menu.png"alt="">
+        </div>
+    </nav>
+    <section id="about-home">
+    <h2>Android Development</h2>
+    </section>
+    <br><br>
+    <section id="about-container">
+        <div class="about-img">
+            <img src="images/a.jpeg"alt="">
+        </div>
+        <div class="about-text">
+          <h3>Information about Android Development</h3>
+            <hr>
+            <p>Android development is the process of creating applications for devices that run the Android operating system. Android is a popular and versatile platform that can run on different types of devices, such as smartphones, tablets, smartwatches, smart TVs, and more.
+            <br><br>
+             Android development involves using various tools, languages, frameworks, and libraries to design, build, test, and publish your apps
+            <br><br>
+            Some of the main components of Android development are:
+            <br>
+            1.Android Studio: This is the official integrated development environment (IDE) for Android development. It provides a graphical user interface (GUI) to create and edit your app’s layout, code, resources, and configuration files. It also offers features such as code completion, debugging, testing, and emulation<br>
+            2.Android SDK: This is the software development kit (SDK) for Android development. It contains the essential tools and libraries to compile, run, and debug your apps. It also includes various APIs to access Android features and services, such as sensors, cameras, location, notifications, etc<br>
+            3.Android Jetpack: This is a collection of libraries and components that help you follow best practices, reduce boilerplate code, and simplify complex tasks. It covers common app scenarios such as navigation, data persistence, lifecycle management, UI design, etc<br>
+            4.Kotlin: This is the preferred programming language for Android development. It is a modern and concise language that interoperates with Java and supports Android-specific features. It also offers various benefits such as null safety, coroutines, extension functions, etc
+            </p>  
+        </div>
+    </section>
+<br><br>
+<footer>
+            <div class="footer-col">
+                <h3>Top Products</h3>
+                <li>Manage Reputation</li>
+                <li>Power Tools</li>
+                <li>Managed Website</li>
+                <li>Marketing Service</li>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <li>Jobs</li>
+                <li>Brand Assets</li>
+                <li>Investor Relation</li>
+                <li>Terms of Service</li>
+            </div>    
+            <div class="footer-col">
+                <h3>Features</h3>
+                <li>Managed Reputation</li>
+                <li>Power Tools</li>
+                <li>Managed Website</li>
+                <li>Marketing Service</li>
+            </div>
+            <div class="footer-col">
+                <h3>Resources</h3>
+                <li>Guides</li>
+                <li>Research</li>
+                <li>Experts</li>
+                <li>Marketing Service</li>
+            </div>
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>You can trust us,We only send promo offers</p>
+            <div class="subscribe">
+                <input type="text"placeholder="Your Email Address">
+                <a href="#"class="yellow">Subscribe</a>
+            </div> 
+        </div>
+        <div class="copyright">
+            <p>Copyright ©2023 All rights reserved | This template is made by TechEduca</p>
+            <div class="pro-links">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin-in"></i>
+        </div>
+        </div>
+    </footer>
+    <script>
+        $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+        $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
+</body>
+</html>

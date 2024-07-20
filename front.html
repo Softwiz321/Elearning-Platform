@@ -1,0 +1,106 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible"content="IE=edge">
+<meta name="viewport"content="width=device-width,initial-scale=1.0">
+<title>Project Zero</title>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+<link rel="stylesheet"href="style.css">
+<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <img src="images/logo.svg"alt="">
+        <div class="navigation">
+        <ul>
+        <i id="menu-close"class="fas fa-times"></i>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a class="active" href="course.html">Courses</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <img id="menu-btn"src="images/menu.png"alt="">
+        </div>
+    </nav>
+    <section id="about-home">
+    <h2>Frontend Web</h2>
+    </section>
+    <br><br>
+    <section id="about-container">
+        <div class="about-img">
+            <img src="images/a.jpeg"alt="">
+        </div>
+        <div class="about-text">
+          <h3>Information about Frontend Web</h3>
+            <hr>
+            <p>Frontend web development is the process of creating the user interface of a website or a web application using technologies such as HTML, CSS, and JavaScript. The frontend is what the user sees and interacts with on their web browser. It includes aspects such as layout, design, navigation, functionality, and accessibility
+            <br><br>
+            Some of the common tasks and skills involved in frontend web development are:
+            <br>
+            1.Creating and updating web pages or components using HTML, CSS, and JavaScript<br>
+            2.Using frameworks and libraries to simplify and enhance the development process, such as Bootstrap, React, Angular, Vue, etc.<br>
+            3.Ensuring that the web pages are responsive and compatible with different devices and browsers<br>
+            4.Improving the performance and usability of the web pages by optimizing the code, images, fonts, etc.<br>
+            5.Adding and testing accessibility features to make the web pages more user-friendly for people with disabilities<br>
+            6.Debugging and fixing errors or bugs in the code using tools such as Chrome DevTools, Firefox Developer Tools, etc.
+        </p>  
+        </div>
+    </section>
+<br><br>
+<footer>
+            <div class="footer-col">
+                <h3>Top Products</h3>
+                <li>Manage Reputation</li>
+                <li>Power Tools</li>
+                <li>Managed Website</li>
+                <li>Marketing Service</li>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <li>Jobs</li>
+                <li>Brand Assets</li>
+                <li>Investor Relation</li>
+                <li>Terms of Service</li>
+            </div>    
+            <div class="footer-col">
+                <h3>Features</h3>
+                <li>Managed Reputation</li>
+                <li>Power Tools</li>
+                <li>Managed Website</li>
+                <li>Marketing Service</li>
+            </div>
+            <div class="footer-col">
+                <h3>Resources</h3>
+                <li>Guides</li>
+                <li>Research</li>
+                <li>Experts</li>
+                <li>Marketing Service</li>
+            </div>
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>You can trust us,We only send promo offers</p>
+            <div class="subscribe">
+                <input type="text"placeholder="Your Email Address">
+                <a href="#"class="yellow">Subscribe</a>
+            </div> 
+        </div>
+        <div class="copyright">
+            <p>Copyright ©2023 All rights reserved | This template is made by TechEduca</p>
+            <div class="pro-links">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin-in"></i>
+        </div>
+        </div>
+    </footer>
+    <script>
+        $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+        $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
+</body>
+</html>

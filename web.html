@@ -1,0 +1,103 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible"content="IE=edge">
+<meta name="viewport"content="width=device-width,initial-scale=1.0">
+<title>Project Zero</title>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+<link rel="stylesheet"href="style.css">
+<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <img src="images/logo.svg"alt="">
+        <div class="navigation">
+        <ul>
+        <i id="menu-close"class="fas fa-times"></i>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a class="active" href="course.html">Courses</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <img id="menu-btn"src="images/menu.png"alt="">
+        </div>
+    </nav>
+    <section id="about-home">
+    <h2>Web development</h2>
+    </section>
+    <br><br>
+    <section id="about-container">
+        <div class="about-img">
+            <img src="images/a.jpeg"alt="">
+        </div>
+        <div class="about-text">
+          <h3>Information about Web Development</h3>
+            <hr>
+            <p> Web development is the work involved in developing a website or a web application for the internet or an intranet. It includes aspects such as web design, web publishing, web programming, and database management. Web development can be classified into two main categories: front-end development and back-end development. 
+            <br><br>
+            Front-end development is the part of a website that the user interacts with directly. It involves creating the layout, colors, navigation, and functionality of a web page using technologies such as HTML, CSS, JavaScript, and various frameworks and libraries.
+            <br><br>
+            Back-end development is the part of a website that the user cannot see, but is responsible for storing and retrieving data. It involves creating the server-side logic, database, and API of a web application using technologies such as PHP, Java, Python, Node.js, and various frameworks and databases.
+            <br><br>
+            Web development is an exciting and rewarding career path that requires creativity, problem-solving skills, and a passion for technology.
+            </p>  
+        </div>
+    </section>
+<br><br>
+<footer>
+            <div class="footer-col">
+                <h3>Top Products</h3>
+                <li>Manage Reputation</li>
+                <li>Power Tools</li>
+                <li>Managed Website</li>
+                <li>Marketing Service</li>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <li>Jobs</li>
+                <li>Brand Assets</li>
+                <li>Investor Relation</li>
+                <li>Terms of Service</li>
+            </div>    
+            <div class="footer-col">
+                <h3>Features</h3>
+                <li>Managed Reputation</li>
+                <li>Power Tools</li>
+                <li>Managed Website</li>
+                <li>Marketing Service</li>
+            </div>
+            <div class="footer-col">
+                <h3>Resources</h3>
+                <li>Guides</li>
+                <li>Research</li>
+                <li>Experts</li>
+                <li>Marketing Service</li>
+            </div>
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>You can trust us,We only send promo offers</p>
+            <div class="subscribe">
+                <input type="text"placeholder="Your Email Address">
+                <a href="#"class="yellow">Subscribe</a>
+            </div> 
+        </div>
+        <div class="copyright">
+            <p>Copyright ©2023 All rights reserved | This template is made by TechEduca</p>
+            <div class="pro-links">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin-in"></i>
+        </div>
+        </div>
+    </footer>
+    <script>
+        $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+        $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
+</body>
+</html>

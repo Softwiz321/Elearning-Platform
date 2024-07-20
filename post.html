@@ -1,0 +1,106 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible"content="IE=edge">
+<meta name="viewport"content="width=device-width,initial-scale=1.0">
+<title>Project Zero</title>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+<link rel="stylesheet"href="style.css">
+<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <img src="images/logo.svg"alt="">
+        <div class="navigation">
+        <ul>
+        <i id="menu-close"class="fas fa-times"></i>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a class="active" href="blog.html">Blog</a></li>
+        <li><a href="course.html">Courses</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <img id="menu-btn"src="images/menu.png"alt="">
+        </div>
+    </nav>
+    <section id="blog-container">
+        <div class="blogs blogpost">
+            <div class="post">
+                <img src="images/b1.jpeg"alt="">
+                <h3>Learn Web Development In The Easiest Way</h3>
+                <p>Web development is the process of creating websites and web applications using various technologies and tools. Web development can be divided into two main categories:Front-end and Back-end.
+                Front-end development involves designing and coding the user interface of a website or a web application. It includes aspects such as layout, typography, colors, animations, interactivity, and responsiveness. Front-end developers use languages such as HTML, CSS, and JavaScript, as well as frameworks and libraries such as Bootstrap, React, Angular, and Vue.
+                Back-end development involves creating and managing the server-side logic and data of a website or a web application. It includes aspects such as database, authentication, security, performance, and scalability. Back-end developers use languages such as PHP, Python, Ruby, Java, and C#, as well as frameworks and tools such as Laravel, Django, Rails, Spring Boot, and Node.js.
+                Web development is a dynamic and exciting field that requires constant learning and adaptation. Web developers need to keep up with the latest trends and technologies in the industry, as well as the best practices and standards for web development. Some of the current topics that web developers should be aware of are:
+                <br>
+                <br>
+                <b>Web accessibility:</b>Web accessibility is the practice of making websites and web applications accessible to all users, regardless of their abilities or disabilities. Web accessibility ensures that everyone can access and use the web effectively and efficiently. Web developers can follow the Web Content Accessibility Guidelines (WCAG) to make their websites and web applications more accessible.
+                <br>
+                <br>
+                <b>Progressive web apps (PWAs)</b>:Progressive web apps are web applications that offer a native-like experience to users on any device. PWAs are fast, reliable, and engaging. They can work offline, load instantly, send push notifications, and be installed on the home screen. Web developers can use service workers, manifest files, and other technologies to create PWAs.
+                <br>
+                <br>
+                <b>WebAssembly:</b>WebAssembly is a new technology that allows web developers to run code written in languages other than JavaScript on the web browser. WebAssembly enables faster performance, better compatibility, and more flexibility for web development. Web developers can use tools such as Emscripten, Blazor, or WASI to compile their code to WebAssembly.
+                Web development is a rewarding and challenging career that offers many opportunities for creativity and innovation. Web developers can create amazing websites and web applications that solve real-world problems and provide value to users.
+                <br>
+                <br>
+                I hope you enjoyed reading this blog post. Thank you for your time.😊</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>Jobs</li>
+            <li>Brand Assets</li>
+            <li>Investor Relation</li>
+            <li>Terms of Service</li>
+        </div>    
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>Managed Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Guides</li>
+            <li>Research</li>
+            <li>Experts</li>
+            <li>Marketing Service</li>
+        </div>
+    <div class="footer-col">
+        <h3>Newsletter</h3>
+        <p>You can trust us,We only send promo offers</p>
+        <div class="subscribe">
+            <input type="text"placeholder="Your Email Address">
+            <a href="#"class="yellow">Subscribe</a>
+        </div> 
+    </div>
+    <div class="copyright">
+        <p>Copyright ©2023 All rights reserved | This template is made by TechEduca</p>
+        <div class="pro-links">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin-in"></i>
+    </div>
+    </div>
+</footer>
+<script>
+    $('#menu-btn').click(function(){
+        $('nav .navigation ul').addClass('active')
+    });
+    $('#menu-close').click(function(){
+        $('nav .navigation ul').removeClass('active')
+    });
+</script>
+</body>
+</html>
